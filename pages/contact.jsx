@@ -60,57 +60,57 @@ const  Contact = () => {
             animate={{opacity: [0,1]}} transition={{delay: 0, duration: 4}}>
             <Navbar page='Contact'/>
         </motion.div>
-        <motion.div className='ml-[41vw] bg-gradient-to-b from-[#0f0] to-[#83de83] w-1.5 h-[70vh] mt-20 rounded-full relative'
+        <motion.div className='bg-gradient-to-b from-[#0f0] to-[#83de83] w-1.5 h-[70vh] mt-[8vh] rounded-full relative ml-[42vw]'
                           animate={{opacity: [0,1]}} transition={{delay: 0, duration: 4}}></motion.div>
-        <div className='flex-col-reverse flex gap-10 -mt-[70vh] items-center absolute h-[100vh] w-[100vw] bg-transparent'>
+        <div className='flex-col-reverse flex -ml-[6vw] -mt-[70vh] items-center absolute h-[100vh] w-[100vw] bg-transparent'>
          <motion.div
-            className='bg-black p-8 rounded-2xl'
+            className='bg-black'
         >
 
             <form
                 ref={formRef}
                 onSubmit={handleSubmit}
-                className='flex flex-col gap-8 bg-black rounded-2xl'
+                className='flex flex-col bg-black rounded-2xl absolute'
             >
                 <label className='flex flex-col bg-transparent'>
-                    <span className='text-[26px] text-[#0f0] [text-shadow:_2px_2px_2px_rgb(0_255_0_/_50%)] mb-1 bg-transparent ml-2 mt-2'>Name</span>
+                    <span className='text-[34px] text-[#0f0] [text-shadow:_2px_2px_2px_rgb(0_255_0_/_50%)] mb-1 bg-transparent ml-2 mt-2'>Name</span>
                     <input 
                         type='text'
                         name = 'name'
                         value={form.name}
                         onChange={handleChange}
                         placeholder="What's your name?"
-                        className='bg-tertiary py-4 px-2 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+                        className='bg-tertiary py-4 px-2 placeholder:text-secondary text-white rounded-lg outline-none border-none text-[22px]'
                     />
                 </label>
 
                 <label className='flex flex-col bg-transparent'>
-                    <span className='text-[26px] text-[#0f0] [text-shadow:_2px_2px_2px_rgb(0_255_0_/_50%)] mb-1 bg-transparent ml-2'>Email</span>
+                    <span className='text-[34px] text-[#0f0] [text-shadow:_2px_2px_2px_rgb(0_255_0_/_50%)] mb-1 bg-transparent ml-2'>Email</span>
                     <input 
                         type='email'
                         name = 'email'
                         value={form.email}
                         onChange={handleChange}
                         placeholder="What's your email?"
-                        className='bg-tertiary py-4 px-2 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+                        className='bg-tertiary py-4 px-2 placeholder:text-secondary text-white rounded-lg outline-none border-none text-[22px]'
                     />
                 </label>
 
                 <label className='flex flex-col bg-transparent'>
-                    <span className='text-[26px] text-[#0f0] [text-shadow:_2px_2px_2px_rgb(0_255_0_/_50%)] mb-1 bg-transparent ml-2'>Message</span>
+                    <span className='text-[34px] text-[#0f0] [text-shadow:_2px_2px_2px_rgb(0_255_0_/_50%)] mb-1 bg-transparent ml-2'>Message</span>
                     <textarea
                         rows="7" 
                         name = 'message'
                         value={form.message}
                         onChange={handleChange}
                         placeholder="What do you want to say?"
-                        className='bg-tertiary py-4 px-2 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+                        className='bg-tertiary py-4 px-2 placeholder:text-secondary text-white rounded-lg outline-none border-none text-[22px]'
                     />
                 </label>
 
                 <button 
                     type='submit'    
-                    className='bg-tertiary px-2 -mt-20 outline-none w-fit text-[26px] text-[#0f0] [text-shadow:_2px_2px_2px_rgb(0_255_0_/_50%)] rounded-xl'
+                    className='bg-tertiary px-2 -mt-20 outline-none w-fit text-[34px] text-[#0f0] [text-shadow:_2px_2px_2px_rgb(0_255_0_/_50%)] rounded-xl'
                 >
                     {loading ? 'Sending...' : 'Send'}
                 </button>
