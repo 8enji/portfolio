@@ -1,0 +1,57 @@
+{
+    "particles": {
+      "density": 100,
+      "color": "#83de83",
+      "size": {
+        "value": 1,
+        "random": true
+      },
+      "movement": {
+        "speed": 0,
+        "restless": {
+          "enabled": false,
+          "value": 10
+        }
+      },
+      "interactivity": {
+        "on_hover": {
+          "enabled": true,
+          "action": "repulse"
+        },
+        "on_click": {
+          "enabled": true,
+          "action": "big_repulse"
+        },
+        "on_touch": {
+          "enabled": true,
+          "action": "repulse"
+        }
+      }
+    },
+    "image": {
+      "src": {
+        "path": "/static/react.png",
+        "is_external": true
+      },
+      "size": {
+        "canvas_pct": 150,
+        "min_px": 150,
+        "max_px": 700
+      }
+    },
+    "interactions": {
+      "repulse": {
+        "distance": 75,
+        "strength": 100
+      },
+      "big_repulse": {
+        "distance": 100,
+        "strength": 500
+      },
+      "grab": {
+        "distance": 100,
+        "line_width": 1
+      }
+    },
+    "disabled": false
+  }

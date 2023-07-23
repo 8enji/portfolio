@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "@use-it/interval": "^1.0.0",
+    "emailjs": "^4.0.2",
+    "flowbite-react": "^0.4.7",
+    "framer-motion": "^10.12.16",
+    "next": "latest",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-parallax-tilt": "^1.7.145",
+    "react-tilt": "^1.0.2",
+    "typed.js": "^2.0.16"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2"
+  }
+}
