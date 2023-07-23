@@ -35,7 +35,6 @@ const About = () => {
     
     return (
         <>
-        <Script src= "/static/particle-image.js"></Script>
         <Layout page='About'>
             <div className='mt-4 absolute bg-transparent'>
                 <motion.div className='flex justify-center bg-transparent'
@@ -43,8 +42,8 @@ const About = () => {
                     <Navbar page='About'/>
                 </motion.div>
 
-                <div className='mt-20 flex h-500 bg-transparent'>
-                    <div>
+                <div className='mt-8 flex bg-transparent'>
+                    <div className='ml-[10vw]'>
                         <motion.div className='inline bg-transparent text-[50px] text-[#fff] [text-shadow:_2px_2px_2px_rgb(0_255_0_/_50%)]'
                               animate={{opacity: [0,1]}} transition={{delay: .5, duration: 4}}>
                             <span className='text-[#0f0]'>I am a </span>
@@ -65,23 +64,7 @@ const About = () => {
                             
                         </motion.div>
                     </div>
-                    <motion.div className=' ml-3 bg-gradient-to-b from-[#0f0] to-[#83de83] w-1.5 h-[80vh] rounded-full '
-                          animate={{opacity: [0,1]}} transition={{delay: 0, duration: 4}}></motion.div>
-                    <div className='flex-row'>
-                        <div id="particle-image" data-params-src="/static/params.json"
-                            className=' cursor-pointer bg-transparent'>
-                        </div>
-                        <div id="particle-image-2" data-params-src="/static/params_react.json"
-                            className= ' cursor-pointer bg-transparent -mt-[450px] '>
-                        </div>
-                        <div id="particle-image-3" data-params-src="/static/params_mountain.json"
-                            className=' cursor-pointer bg-transparent -mt-[450px]'>
-                        </div>
-                        <motion.div className='-mt-[460px] ml-[120px] italic opacity-30'
-                          animate={{opacity: [0,1]}} transition={{delay: 2, duration: 4}}>
-                            hover...
-                        </motion.div>
-                    </div>
+                   
                 </div>
             </div>
         </Layout>
