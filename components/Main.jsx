@@ -35,8 +35,17 @@ const Scramble = ( text ) => {
 
 }
 
+
+
 const Main = () => {
+  if ("maxTouchPoints" in navigator && navigator.maxTouchPoints > 0) {
   return (
+        <div className='text-[#0f0] [text-shadow:_2px_2px_2px_rgb(0_255_0_/_50%)]'>
+            Mobile coming soon...
+        </div>
+  )
+} else {
+    return (
         <div className='relative flex-col text-[50px] bg-transparent -top-[10vh]'>
             <motion.div className='bg-transparent text-[#0f0] [text-shadow:_2px_2px_2px_rgb(0_255_0_/_50%)]'
                 animate={{opacity: [0,1]}} transition={{delay: 1, duration: 2}}
@@ -51,7 +60,8 @@ const Main = () => {
             </motion.div>
             </div>
         </div>
-  )
+    )
 }
+} 
 
 export default Main
