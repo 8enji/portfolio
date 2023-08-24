@@ -10,7 +10,7 @@ i created this portfolio with **three** main goals in mind:
 here are some of the cool pages ❗    
 
 ![Screen Shot 2023-07-23 at 2 45 27 PM](https://github.com/8enji/portfolio/assets/58536087/c59c7811-9afc-43d2-9ac0-54844579b9c7)
-![Screen Shot 2023-07-23 at 2 45 52 PM](https://github.com/8enji/portfolio/assets/58536087/8295aaf7-e2b0-4595-80bf-e38d923d5acf)
+<img width="1130" alt="Screen Shot 2023-08-25 at 12 03 24 AM" src="https://github.com/8enji/project-portfolio/assets/58536087/c4c02e29-9daa-44aa-a9fa-dea6e0d7fc6c">
 ![Screen Shot 2023-07-23 at 2 46 10 PM](https://github.com/8enji/portfolio/assets/58536087/c2f2d966-b3cb-4a7b-9aef-8ba8a92c203e)
 ![Screen Shot 2023-07-23 at 2 46 19 PM](https://github.com/8enji/portfolio/assets/58536087/2008cbee-274f-425f-97ee-41329acbd539)
 
