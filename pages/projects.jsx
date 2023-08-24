@@ -5,9 +5,8 @@ import Image from 'next/image'
 
 import { Layout, Navbar } from '../components'
 import { projects } from '../components/constants'
-import { github } from '../components/assets'
 
-const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
+const ProjectCard = ({ index, name, description, tags, image, source_image, source_code_link }) => {
     return (
         <motion.div animate={{opacity: [0,1]}} transition={{ duration: .25}} className='bg-[rgba(0,0,0,.95)]'>
             <Tilt
@@ -31,7 +30,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
                         className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
                         >
                             <Image 
-                                src={github}
+                                src={source_image}
                                 alt = 'github'
                                 className='w-3/4 object-contain bg-transparent'
                             />
