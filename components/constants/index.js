@@ -1,7 +1,9 @@
 import {
-    spotify,
-    stockify,
-    articleai
+    montecarlo,
+    website,
+    nlpanalysis,
+    github,
+    link
 } from '../assets'
 
 export const navLinks = [
@@ -29,67 +31,70 @@ export const navLinks = [
 
   export const projects = [
     {
-      name: "Spotify Sapphire",
+      name: "Monte Carlo Simulation",
       description:
-        "Web-based apllication that extends upon the features of Spotify while also adding unique elements such as music video support, detailed analytics, and community songs.",
+        "Interactive Web Application enabling custom retirement portfolio simulation using Monte Carlo simulations over a selected timespan.",
       tags: [
         {
-          name: "react",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "rapidapi",
+          name: "pandas",
           color: "green-text-gradient",
         },
         {
-          name: "redux",
+          name: "streamlit",
           color: "pink-text-gradient",
         },
       ],
-      image: spotify,
-      source_code_link: "https://github.com/",
+      image: montecarlo,
+      source_code_link: "https://portfolio-montecarlo-simulation.streamlit.app",
+      source_image: link
     },
     {
-      name: "Stockify",
+      name: "NLP Asset Analysis",
       description:
-        "Web application aimed at lowering the entry barrier to stock analytics by providing users with easy to read charts and a beginner-friendly interface.",
+        "Python NLP Pipeline leveraging PyTorch and transformers modules, enabling web scraping, summarization, and sentiment analysis of recent stock and cryptocurrency news to potential investors.",
       tags: [
         {
-          name: "react",
+          name: "pandas",
           color: "blue-text-gradient",
         },
         {
-          name: "...",
+          name: "NLP",
           color: "green-text-gradient",
+        },
+        {
+          name: "SMTP",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: nlpanalysis,
+      source_code_link: "https://github.com/8enji/nlp-asset-analysis",
+      source_image: github
+    },
+    {
+      name: "Portfolio Website",
+      description:
+        "A dynamic personal portfolio website using JavaScript, React, and Next.js, showcasing my ability to create unique user experiences",
+      tags: [
+        {
+          name: "next.js",
+          color: "blue-text-gradient",
         },
         {
           name: "tailwindcss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: stockify,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Article AI",
-      description:
-        "A comprehensive article summarizer that utilizes technologies such as GPT 4 to summarize user-provided articles, while also providing analytics such as reading level and genre ",
-      tags: [
-        {
-          name: "llm",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "rapidapi",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "react",
           color: "pink-text-gradient",
         },
       ],
-      image: articleai,
-      source_code_link: "https://github.com/",
+      image: website,
+      source_code_link: "https://github.com/8enji/project-portfolio",
+      source_image: github
     },
   ];
 
