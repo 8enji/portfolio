@@ -1,9 +1,10 @@
-import spotify from './spotify.png'
+import montecarlo from './montecarlo.png'
 import github from './github.png'
-import stockify from './stockify.png'
-import articleai from './articleai.png'
+import website from './website.png'
+import nlpanalysis from './nlpanalysis.png'
 import isi from './isi.png'
 import atp from './atp.png'
 import jumpstart from './jumpstart.png'
+import link from './link.png'
 
-export {spotify, github, stockify, articleai, isi, atp, jumpstart}
+export {montecarlo, github, nlpanalysis, website, isi, atp, jumpstart, link}
