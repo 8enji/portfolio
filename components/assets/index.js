@@ -1,3 +1,4 @@
+/* images */
 import montecarlo from './montecarlo.png'
 import github from './github.png'
 import website from './website.png'
